@@ -1,0 +1,155 @@
+{
+  "calendar_events": [
+    {
+      "id": "evt_agentic_data_cloud_20261123",
+      "summary": "Agentic Data Cloud Architecture & GTM Playbook",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-23T10:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "end": {
+        "dateTime": "2026-11-23T10:45:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "organizer": {
+        "email": "organizer@example.com",
+        "self": true
+      },
+      "attendees": [
+        { "email": "organizer@example.com", "responseStatus": "accepted" },
+        { "email": "account-leads@example.com", "responseStatus": "accepted" },
+        { "email": "lead-architect@example.com", "responseStatus": "accepted" }
+      ],
+      "attachments": [
+        {
+          "fileId": "doc_gemini_notes_20261123",
+          "title": "Notes by Gemini",
+          "mimeType": "application/vnd.google-apps.document",
+          "fileUrl": "https://docs.google.com/document/d/doc_gemini_notes_20261123/edit?usp=meet_tnfm_calendar"
+        },
+        {
+          "fileId": "vid_recording_20261123",
+          "title": "Agentic Data Cloud Architecture & GTM Playbook - 2026/11/23 10:00 IST - Recording",
+          "mimeType": "video/mp4",
+          "fileUrl": "https://drive.google.com/file/d/vid_recording_20261123/view?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "id": "evt_quarterly_cal_sync_unrecorded_20261120",
+      "summary": "Regional Account Leads Strategy Sync",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-20T09:30:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "end": {
+        "dateTime": "2026-11-20T10:15:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "organizer": {
+        "email": "organizer@example.com",
+        "self": true
+      },
+      "attendees": [
+        { "email": "organizer@example.com", "responseStatus": "accepted" },
+        { "email": "account-leads@example.com", "responseStatus": "accepted" }
+      ],
+      "attachments": [
+        {
+          "fileId": "doc_gemini_notes_20261120",
+          "title": "Notes by Gemini",
+          "mimeType": "application/vnd.google-apps.document",
+          "fileUrl": "https://docs.google.com/document/d/doc_gemini_notes_20261120/edit?usp=meet_tnfm_calendar"
+        }
+      ]
+    },
+    {
+      "id": "evt_global_community_non_host_20261118",
+      "summary": "Global Cross-Region Community Call",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-18T14:00:00+05:30",
+        "timeZone": "Europe/Paris"
+      },
+      "end": {
+        "dateTime": "2026-11-18T15:00:00+05:30",
+        "timeZone": "Europe/Paris"
+      },
+      "organizer": {
+        "email": "peer-director@example.com",
+        "self": false
+      },
+      "attendees": [
+        { "email": "peer-director@example.com", "responseStatus": "accepted" },
+        { "email": "organizer@example.com", "responseStatus": "accepted" },
+        { "email": "account-leads@example.com", "responseStatus": "accepted" }
+      ],
+      "attachments": [
+        {
+          "fileId": "doc_other_host_20261118",
+          "title": "Notes by Gemini",
+          "mimeType": "application/vnd.google-apps.document",
+          "fileUrl": "https://docs.google.com/document/d/doc_other_host_20261118/edit"
+        }
+      ]
+    },
+    {
+      "id": "evt_ai_tokenomics_published_20261116",
+      "summary": "AI Tokenomics & Unit Economics Workshop",
+      "status": "confirmed",
+      "start": {
+        "dateTime": "2026-11-16T10:00:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "end": {
+        "dateTime": "2026-11-16T10:30:00+05:30",
+        "timeZone": "Asia/Kolkata"
+      },
+      "organizer": {
+        "email": "organizer@example.com",
+        "self": true
+      },
+      "attendees": [
+        { "email": "organizer@example.com", "responseStatus": "accepted" },
+        { "email": "account-leads@example.com", "responseStatus": "accepted" }
+      ],
+      "attachments": [
+        {
+          "fileId": "doc_tokenomics_20261116",
+          "title": "Notes by Gemini",
+          "mimeType": "application/vnd.google-apps.document",
+          "fileUrl": "https://docs.google.com/document/d/doc_tokenomics_20261116/edit"
+        },
+        {
+          "fileId": "vid_tokenomics_20261116",
+          "title": "AI Tokenomics - Recording",
+          "mimeType": "video/mp4",
+          "fileUrl": "https://drive.google.com/file/d/vid_tokenomics_20261116/view"
+        }
+      ]
+    }
+  ],
+  "gemini_notes_documents": {
+    "doc_gemini_notes_20261123": {
+      "title": "Agentic Data Cloud Architecture & GTM Playbook - Notes by Gemini",
+      "quick_notes_markdown": "## Agentic Data Cloud Architecture & GTM Playbook\n\nNov 23, 2026\n\nSummary\n- Enterprise architectures are shifting from static BI dashboards to proactive multi-agent data pipelines handling thousands of concurrent queries.\n- Unified lakehouse federation enables zero-copy analytics across transactional databases and Apache Iceberg tables.\n- Serverless microVM database pooling cuts agent cold-start provisioning to under 2 seconds with per-second autoscaling.\n- Field GTM motion aligns around three repeatable plays: Unified Data+AI Modernization, Analytics-First, and Operational Database Migration.\n\nNext steps\n- [Alex Rivera] Share the reference architecture deck and multi-cloud benchmark examples with the regional account leads.\n- [Program Host] Schedule a 1:1 portfolio review covering the top 10 strategic accounts prior to Q1 planning."
+    },
+    "doc_gemini_notes_20261120": {
+      "title": "Regional Account Leads Strategy Sync - Notes by Gemini",
+      "quick_notes_markdown": "## Regional Account Leads Strategy Sync\n\nNov 20, 2026\n\nSummary\n- Reviewed Q4 enterprise adoption milestones across financial services, retail, and telecom accounts.\n- Standardized customer readiness checklists for production agent deployments and governance sign-off.\n- Agreed to publish concise async recaps after every hosted enablement session so leads across time zones stay aligned.\n\nNext steps\n- [Jordan Lee] Circulate the updated production readiness checklist template by Friday.\n- [Program Host] Confirm December monthly connect agenda topics."
+    },
+    "doc_tokenomics_20261116": {
+      "title": "AI Tokenomics & Unit Economics Workshop - Notes by Gemini",
+      "quick_notes_markdown": "## AI Tokenomics & Unit Economics Workshop\n\nNov 16, 2026\n\nSummary\n- Covered model tier routing (Flash vs Pro) and context caching to reduce enterprise inference spend by 45-65%.\n\nNext steps\n- [Sam Patel] Publish the ROI calculator spreadsheet to the shared team folder."
+    }
+  },
+  "existing_chat_messages": [
+    {
+      "name": "spaces/AAAA_OFFICIAL_SPACE/messages/msg_tokenomics_001.msg_tokenomics_001",
+      "createTime": "2026-11-16T06:00:00Z",
+      "text": "Session Recap: AI Tokenomics & Unit Economics Workshop (doc_tokenomics_20261116)"
+    }
+  ]
+}
