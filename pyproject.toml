@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "session-publisher-agent"
+version = "1.0.0"
+description = "Enterprise Google ADK Multi-Agent System that discovers hosted Google Calendar sessions, synthesizes Gemini Meeting Notes & recordings, enforces HITL approval & ACL guardrails, and publishes structured recaps to Google Chat."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Enterprise AI Engineering" }
+]
+dependencies = [
+  "google-adk>=1.0.0",
+  "google-genai>=1.5.0",
+  "google-api-python-client>=2.150.0",
+  "google-auth>=2.35.0",
+  "google-cloud-secret-manager>=2.21.0",
+  "google-cloud-dlp>=3.25.0",
+  "opentelemetry-api>=1.28.0",
+  "opentelemetry-sdk>=1.28.0",
+  "pydantic>=2.9.0",
+  "python-dotenv>=1.0.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["session_publisher_agent*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
